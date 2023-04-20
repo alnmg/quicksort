@@ -46,7 +46,10 @@
         foreach (string s in input.Split(' '))
         {
             int number;
-            if (int.TryParse(s, out number)) originalList.Add(number);
+            if (int.TryParse(s, out number))
+            {
+                originalList.Add(number);
+            }
         }
 
         List<int> sortedList = quickSortList(originalList);
