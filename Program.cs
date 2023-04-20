@@ -12,7 +12,6 @@
         List<int> smallerSorted = new List<int>();
         List<int> biggerSorted = new List<int>();
 
-        //o pivot é o primeiro elemento
         int pivot = list[0];
 
         for (int i = 1; i < list.Count; i++)
