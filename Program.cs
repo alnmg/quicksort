@@ -1,6 +1,6 @@
 ﻿class Program{
 
-    //isso ajudou: https://joaoarthurbm.github.io/eda/posts/quick-sort/
+    //quick sort em c#
     
     static List<int> quickSortList(List<int> list)
     {
