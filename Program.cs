@@ -5,7 +5,6 @@
     static List<int> quickSortList(List<int> list)
     {
 
-        //nao prosseguir se a lista for menor ou igual a 1. da erro :P
         if (list.Count <= 1) {
             return list;
         }
