@@ -1,6 +1,6 @@
 ﻿class Program{
 
-    //https://joaoarthurbm.github.io/eda/posts/quick-sort/
+    //this helped: https://joaoarthurbm.github.io/eda/posts/quick-sort/
     
     static List<int> quickSortList(List<int> list)
     {
