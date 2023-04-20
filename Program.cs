@@ -2,7 +2,7 @@
 
     //https://joaoarthurbm.github.io/eda/posts/quick-sort/
     
-    public static List<int> quickSortList(List<int> list)
+    static List<int> quickSortList(List<int> list)
     {
 
         //nao prosseguir se a lista for menor ou igual a 1. da erro :P
@@ -39,7 +39,7 @@
         return result;
     }
 
-      static void Main(string[] args)
+    static void Main(string[] args)
     {
         Console.WriteLine("digite a lista de numeros para ser organizada");
         string input = Console.ReadLine();
